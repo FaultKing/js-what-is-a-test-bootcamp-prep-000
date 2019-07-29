@@ -5,13 +5,13 @@ var message = `${name} is ${height} inches tall`
 
 module.exports = {name, height, message}
 
-describe("what-is-a-test"), () => {
-  describe("Name", () => {
-    it ('returns "Susan"',() =>{
+describe("what-is-a-test", () => {
+  describe("Name", () =>{
+    it('returns "Susan"', () => {
       expect(index.name).toEqual("Susan")
     })
   })
-}
+
 
 describe("Height",() => {
   it("is less than 40", () => {
@@ -24,4 +24,5 @@ describe("Message",() => {
     expect(index.message).toInclude(index.name)
     expect(index.message).toInclude(index.height)
   })
+})
 })
