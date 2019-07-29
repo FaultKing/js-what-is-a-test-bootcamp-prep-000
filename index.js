@@ -5,7 +5,7 @@ var message = `${name} is ${height} inches tall`
 
 module.exports = {name, height, message}
 
-var index -require("../index.js")
+var index = require("../index.js")
 
 describe("what-is-a-test", () => {
   describe("Name", () => {
